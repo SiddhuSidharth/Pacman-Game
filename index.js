@@ -509,15 +509,19 @@ function animate(){
           else{
              cancelAnimationFrame(animationId)
             //animationId is like a current frame 
-             console.log('lose')  
+            alert('Your Scoore is '+ score)
+
+             
           }
        }
     }
      //win condition
    if(pellets.length == 0 ){
-    console.log('you win')
+    
     
     cancelAnimationFrame(animationId)
+    alert('Congrajulations!,YOU WON THE GAME');
+    alert('Your Scoore is '+ score)
     
    }
    
