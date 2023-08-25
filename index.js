@@ -509,7 +509,7 @@ function animate(){
           else{
              cancelAnimationFrame(animationId)
             //animationId is like a current frame 
-            alert('Your Scoore is '+ score)
+            alert('Your Score is '+ score)
 
              
           }
