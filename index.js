@@ -521,7 +521,7 @@ function animate(){
     
     cancelAnimationFrame(animationId)
     alert('Congrajulations!,YOU WON THE GAME');
-    alert('Your Scoore is '+ score)
+    alert('Your Score is '+ score)
     
    }
    
