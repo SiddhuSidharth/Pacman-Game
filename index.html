@@ -1,17 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacman Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    
-    <p id="scoreEl"><span>Score:</span><span id="score">0</span></p>
-    <h1>Pacman</h1>
-    <canvas></canvas>
-    
-    <script src="index.js"></script>
-</body>
-</html>
+<style>
+    body {
+        margin: 0;
+        background-color: black;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: sans-serif;
+    }
+
+    canvas {
+        border: 1px solid white; /* Add a border for better visibility */
+    }
+</style>
+<p style="color:white; font-family:sans-serif; font-size:14px; margin-bottom :6px;">
+   <span>Score:</span><span id="scoreEl">0</span>
+   
+   
+</p>
+<h1 style="color: white; text-align: center; font-family: sans-serif;">Pacman</h1>
+<canvas></canvas>
+ 
+<script src="index.js"></script>
