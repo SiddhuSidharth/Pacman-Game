@@ -18,6 +18,11 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+.pacman{
+    text-align:center;
+
+
+}
 
 /* Style for the canvas element */
 canvas {
