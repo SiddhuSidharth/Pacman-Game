@@ -30,12 +30,27 @@
         p {
             margin-bottom: 6px;
         }
+        .controls {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .controls p {
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
     <p id="scoreEl"><span>Score:</span><span id="score">0</span></p>
     <h1>Welcome to Pacman Game</h1>
     <canvas></canvas>
+    <div class="controls">
+        <p>Controls:</p>
+        <p>&lt; : Move Left</p>
+        <p>&gt; : Move Right</p>
+        <p>^ : Move Up</p>
+        <p>v : Move Down</p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
